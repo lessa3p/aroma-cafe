@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aroma & Café — Torrefação Artesanal</title>
+<meta name="description" content="Aroma & Café — cafeteria de especialidade, torra artesanal, ambiente sofisticado.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.svg" alt="Aroma & Café" class="brand-mark">
+      <span class="brand-name">Aroma <em>&amp;</em> Café</span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#historia">História</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#visite">Visite-nos</a>
+    </nav>
+    <a href="#visite" class="btn btn-outline nav-cta">Reservar mesa</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="nav-scrim" id="navScrim"></div>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1800&q=80')"></div>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Cafeteria e doceria</p>
+      <h1>Tudo se faz <span>doce</span></h1>
+      <p class="hero-sub">Grãos selecionados, doces especiais e um ambiente pensado para desacelerar. Bem-vindo ao Aroma &amp; Café.</p>
+      <div class="hero-actions">
+        <a href="#cardapio" class="btn btn-primary">Ver cardápio</a>
+        <a href="#visite" class="btn btn-ghost">Nossa localização</a>
+      </div>
+    </div>
+    <a href="#historia" class="scroll-cue" aria-label="Rolar para baixo"><span></span></a>
+  </section>
+
+  <section class="strip">
+    <div class="strip-item"><strong>100%</strong><span>Grãos de especialidade</span></div>
+    <div class="strip-item"><strong>08</strong><span>Origens selecionadas</span></div>
+    <div class="strip-item"><strong>2016</strong><span>Desde</span></div>
+    <div class="strip-item"><strong>4.9★</strong><span>Avaliação média</span></div>
+  </section>
+
+  <section id="historia" class="story">
+    <div class="story-media">
+      <img src="assets/roselli.jpg" alt="Roselli Cristo, chef confeiteira e fundadora do Aroma & Café">
+      <div class="story-media-frame"></div>
+    </div>
+    <div class="story-copy">
+      <p class="eyebrow">Nossa história</p>
+      <h2>Roselli Cristo: fé, doçura e conquista</h2>
+      <p>Mãe de 10 filhos, Roselli aprendeu cedo o que é ser guerreira. Entre fraldas, tarefas e orações, descobriu sua vocação: as mesmas mãos que cuidavam da família sabiam encantar em cada doce. Com fé em Cristo Jesus como alicerce, transformou esse dom em ofício, tornando-se especialista em doces finos e doces para festas.</p>
+      <p>Encomenda após encomenda, o sonho cresceu além do balcão de casa e se tornou o Aroma &amp; Café — um espaço onde fé, família e talento se encontram em cada xícara e em cada doce. A prova viva de que, com fé e trabalho, nenhum sonho é grande demais.</p>
+      <a href="#cardapio" class="text-link">Conhecer o cardápio →</a>
+    </div>
+  </section>
+
+  <section id="cardapio" class="menu">
+    <p class="eyebrow center">Cardápio</p>
+    <h2 class="center">Seleção da casa</h2>
+
+    <div class="menu-tabs" role="tablist">
+      <button class="menu-tab is-active" data-tab="cafes" role="tab" aria-selected="true">Cafés</button>
+      <button class="menu-tab" data-tab="doces" role="tab" aria-selected="false">Doces</button>
+      <button class="menu-tab" data-tab="salgados" role="tab" aria-selected="false">Salgados</button>
+    </div>
+
+    <div class="menu-grid" data-panel="cafes">
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Espresso Curto (Ristretto)</h3><span class="price">R$ 8</span></div>
+        <p>Pouco volume de água, sabor muito forte e concentrado.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Espresso Longo</h3><span class="price">R$ 9</span></div>
+        <p>Mais água na extração, sabor menos concentrado.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Doppio</h3><span class="price">R$ 12</span></div>
+        <p>Dose dupla de espresso, para quem gosta de intensidade.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Macchiato</h3><span class="price">R$ 11</span></div>
+        <p>Espresso "manchado" com uma pequena colher de espuma de leite.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Cappuccino Clássico</h3><span class="price">R$ 15</span></div>
+        <p>Um terço de espresso, um terço de leite vaporizado e um terço de espuma, com toque de cacau ou canela.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Café Latte</h3><span class="price">R$ 14</span></div>
+        <p>Mais suave, com bastante leite vaporizado e fina camada de espuma.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Cortado (Gibraltar)</h3><span class="price">R$ 13</span></div>
+        <p>Meio a meio de espresso e leite vaporizado, equilibrando a força do café.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Mocaccino</h3><span class="price">R$ 17</span></div>
+        <p>Calda de chocolate, espresso e leite vaporizado, coberto com chantilly.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Café Coado</h3><span class="price">R$ 16</span></div>
+        <p>Extração em Hario V60, Chemex ou prensa francesa, notas frutadas e acidez limpa.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Café Americano</h3><span class="price">R$ 10</span></div>
+        <p>Espresso diluído em água quente, xícara maior e menos intensa.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Affogato</h3><span class="price">R$ 18</span></div>
+        <p>Uma bola de sorvete de creme ou baunilha "afogada" em uma dose de espresso quente.</p>
+      </div>
+    </div>
+
+    <div class="menu-grid" data-panel="doces" hidden>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Cheesecake de Doce de Leite</h3><span class="price">R$ 22</span></div>
+        <p>Base amanteigada, cobertura cremosa de doce de leite.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Brownie de Cacau 70%</h3><span class="price">R$ 16</span></div>
+        <p>Textura fudgy, servido morno com flor de sal.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Croissant de Amêndoas</h3><span class="price">R$ 14</span></div>
+        <p>Folhado artesanal, recheio de creme de amêndoas.</p>
+      </div>
+    </div>
+
+    <div class="menu-grid" data-panel="salgados" hidden>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Torrada de Abacate</h3><span class="price">R$ 24</span></div>
+        <p>Pão fermentação natural, abacate, limão e flor de sal.</p>
+      </div>
+      <div class="menu-item">
+        <div class="menu-item-head"><h3>Quiche do Dia</h3><span class="price">R$ 21</span></div>
+        <p>Receita rotativa, sempre com ingredientes de estação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <p class="eyebrow center">Galeria</p>
+    <h2 class="center">O ambiente Aroma &amp; Café</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Interior aconchegante da cafeteria">
+      <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80" alt="Xícara de café servida na mesa">
+      <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80" alt="Grãos de café torrados">
+      <img src="https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?auto=format&fit=crop&w=800&q=80" alt="Latte art em xícara branca">
+      <img src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=800&q=80" alt="Balcão da cafeteria com equipamentos de espresso">
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Barista finalizando um café">
+    </div>
+  </section>
+
+  <section id="depoimentos" class="testimonials">
+    <p class="eyebrow center">Depoimentos</p>
+    <h2 class="center">O que dizem sobre nós</h2>
+    <div class="testimonial-track">
+      <blockquote>
+        <p>"Melhor espresso da cidade, sem exagero. O ambiente convida a ficar mais tempo do que eu planejava."</p>
+        <cite>— Marina T.</cite>
+      </blockquote>
+      <blockquote>
+        <p>"Atendimento impecável e um V60 que rivaliza com cafeterias de São Paulo. Voltarei sempre."</p>
+        <cite>— Rafael C.</cite>
+      </blockquote>
+      <blockquote>
+        <p>"Virou meu escritório de sábado. Café excelente e ninguém pressiona você a ir embora."</p>
+        <cite>— Luiza A.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="visite" class="visit">
+    <div class="visit-info">
+      <p class="eyebrow">Visite-nos</p>
+      <h2>Estamos te esperando</h2>
+      <ul class="visit-list">
+        <li><strong>Endereço</strong><span>Rua das Flores, 128 — Centro</span></li>
+        <li><strong>Horário</strong><span>Seg–Sex 7h–20h · Sáb–Dom 8h–21h</span></li>
+        <li><strong>Telefone</strong><span>(11) 4002-8922</span></li>
+        <li><strong>E-mail</strong><span>ola@aromaecafe.com.br</span></li>
+      </ul>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+    <form class="reserve-form" id="reserveForm">
+      <p class="eyebrow">Reserva rápida</p>
+      <h3>Reservar uma mesa</h3>
+      <div class="form-row">
+        <label>Nome<input type="text" name="nome" required placeholder="Seu nome"></label>
+        <label>Telefone<input type="tel" name="telefone" required placeholder="(00) 00000-0000"></label>
+      </div>
+      <div class="form-row">
+        <label>Data<input type="date" name="data" required></label>
+        <label>Pessoas<input type="number" name="pessoas" min="1" max="12" value="2" required></label>
+      </div>
+      <label class="full">Observações<textarea name="obs" rows="3" placeholder="Alguma preferência?"></textarea></label>
+      <button type="submit" class="btn btn-primary full">Confirmar reserva</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.svg" alt="Aroma & Café" class="brand-mark small">
+      <span class="brand-name">Aroma <em>&amp;</em> Café</span>
+    </a>
+    <p>&copy; 2026 Aroma &amp; Café. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
