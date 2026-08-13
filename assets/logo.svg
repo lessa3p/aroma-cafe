@@ -18,6 +18,6 @@
     <path d="M68 150h96" stroke-width="3.6"/>
   </g>
 
-  <text x="120" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="3" fill="#C9A15C" text-anchor="middle">AROMA &amp; CAFÉ</text>
-  <text x="120" y="208" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" letter-spacing="3" fill="#C9A15C" text-anchor="middle" opacity="0.8">CAFETERIA E DOCERIA</text>
+  <text x="120" y="187" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" letter-spacing="1.8" fill="#C9A15C" text-anchor="middle">AROMA &amp; CAFÉ</text>
+  <text x="120" y="202" font-family="'Segoe UI', Arial, sans-serif" font-size="7.5" letter-spacing="1" fill="#C9A15C" text-anchor="middle" opacity="0.8">CAFETERIA E DOCERIA</text>
 </svg>
